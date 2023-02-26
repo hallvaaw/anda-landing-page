@@ -10,8 +10,11 @@
         <p>A desktop application for automated image analysis of differentiating neuronal cells</p>
     </div>
     <div class="grid grid-cols-1">
-        <button class="bg-blue-300 hover:bg-blue-200">Linux</button>
-        <button class="bg-blue-300 hover:bg-blue-200">MacOS</button>
-        <button class="bg-blue-300 hover:bg-blue-200">Windows</button>
+        <div>
+            <h1>Download ANDA</h1>
+            <button class="grid grid-cols-2 bg-blue-600 text-2xl text-slate-100 items-center rounded-xl p-2 m-2 mx-8 hover:bg-blue-300"><img src="/images/linux-svgrepo-com.png" alt="Linux icon" width="50" height="50">Linux</button>
+            <button class="grid grid-cols-2 bg-blue-600 text-2xl text-slate-100 items-center rounded-xl p-2 m-2 mx-8 hover:bg-blue-300"><img src="/images/apple-svgrepo-com.png" alt="Apple icon" width="50" height="50">MacOS</button>
+            <button class="grid grid-cols-2 bg-blue-600 text-2xl text-slate-100 items-center rounded-xl p-2 m-2 mx-8 hover:bg-blue-300"><img src="/images/windows-svgrepo-com.png" alt="Windows icon" width="50" height="50">Windows</button>
+        </div>
     </div>
 </main>
