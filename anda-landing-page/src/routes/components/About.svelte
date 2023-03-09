@@ -4,19 +4,20 @@
         <p class="text-xl">ANDA is a desktop application for automated image analysis of differentiating neuronal cells</p>
         <h2>Main features:</h2>
     </div>
-    <div>
-        <div class="flex flex-col xl:flex-row">
-            <div>
-                <h3>Graphical user interface</h3>
-                <p>Ensures easy navigation and minimal interaction for each analysis</p>
+    <div class="mx-auto">
+        <div class="flex flex-col xl:flex-row space-x-16">
+            <div class="border-4 rounded-xl border-gray-800 w-96">
+                <h3 class="text-4xl">Graphical user interface</h3>
+                <p class="text-xl">Ensures easy navigation and</p>
+                <p class="text-xl">minimal interaction for each analysis</p>
             </div>
-            <div>
-                <h3>Concurrency</h3>
-                <p>Retrieval of morphological metrics is sped up by using multiple cores</p>
+            <div class="border-4 rounded-xl border-gray-800 w-96">
+                <h3 class="text-4xl">Concurrency</h3>
+                <p class="text-xl">Retrieval of morphological metrics is sped up by using multiple cores</p>
             </div>
-            <div>
-                <h3>Cross platform</h3>
-                <p>Able to run on Linux, MacOS and Windows</p>
+            <div class="border-4 rounded-xl border-gray-800 w-96">
+                <h3 class="text-4xl">Cross platform</h3>
+                <p class="text-xl">Able to run on Linux, MacOS and Windows</p>
             </div>
         </div>
     </div>
